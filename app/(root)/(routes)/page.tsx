@@ -9,7 +9,7 @@ interface RootPageProps {
         categoryId: string;
         name: string;
     };
-};
+}
 
 const RootPage = async ({searchParams}: RootPageProps) => {
     const data = await prismadb.companion.findMany({
