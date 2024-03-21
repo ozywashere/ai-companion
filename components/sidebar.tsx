@@ -9,7 +9,7 @@ interface SidebarProps {
     isPro: boolean;
 }
 
-const Sidebar = ({isPro}: SidebarProps) => {
+const Sidebar = ({ isPro }: SidebarProps) => {
     const pathname = usePathname();
     const router = useRouter();
     const proModal = useProModal();
